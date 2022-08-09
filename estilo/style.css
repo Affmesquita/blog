@@ -8,8 +8,8 @@
 }
 
 body {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: white;
+    font-family: slab;
+    background-color: #021E73;
 }
 @font-face {
     font-family: slab;
@@ -18,9 +18,9 @@ body {
 
 :root {
     --cor1: #A60E00;
-    --cor2: #DBBC21;
-    --cor3: #CCD3D9;
-    --cor4: #495B73;
+    --cor2: #B47ED9;
+    --cor3: #033E8C;
+    --cor4: #021E73;
     --cor5: #0D0D0D;
 }
 
@@ -78,13 +78,16 @@ body {
     border: 2px solid rgba(0, 0, 0, 0.185);
     border-radius: 10px;
     margin: 30px;
-
-
+    
+    color: white;
 }
 
 #noticia img {
     width: 200px;
     height: 175px;
+}
+#noticia a {
+    color: white;
 }
 #propaganda {
     width: 330px;
@@ -93,7 +96,8 @@ body {
 
     text-align: center;
 
-    background-image: url(../midias/imagem/propaganda.jpg);
+    background-image: url(../midias/imagem/propaganda1.jpg);
+    background-size: contain;
 }
 #txtp  {
     padding: 50px;
@@ -103,4 +107,28 @@ body {
 }
 #menu {
     width: 330px;
+    margin: 20px 0px;
+}
+#imenu {
+    font-size: 2em;
+    align-items: center;
+}
+#imenu li {
+    border: 2px solid rgba(0, 0, 0, 0.185);
+    border-radius: 10px;
+    text-align: center;
+    margin: 0.5px;
+}
+#imenu a {
+    color: white;
+}
+#imenu li:hover {
+    font-weight: bolder;
+    border: 2px solid rgba(128, 128, 128, 0.281);
+}
+#rodape {
+    width: 100vw;
+    height: 50px;
+
+    background-color: #495B73;
 }
