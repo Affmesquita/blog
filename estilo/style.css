@@ -1,0 +1,106 @@
+@charset "UTF-8";
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+}
+@font-face {
+    font-family: slab;
+    src: url(../fontes/RobotoSlab-VariableFont_wght.ttf);
+}
+
+:root {
+    --cor1: #A60E00;
+    --cor2: #DBBC21;
+    --cor3: #CCD3D9;
+    --cor4: #495B73;
+    --cor5: #0D0D0D;
+}
+
+/*Navegador/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#navegador {
+    width: 100vw;
+    height: 80px;
+    padding: 0px 100px;
+    border-bottom: solid 2px black;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: darkslategray;
+    background-image: url(../midias/imagem/nav\ fundo2.jpg);
+    background-size: cover;
+    background-position: bottom;
+
+    font-family: slab;
+}
+#logo {
+    display: flex;
+    flex-grow: 1;
+}
+#navlist {
+    display: flex;
+    flex-wrap: wrap;
+}
+#navlist li {
+    padding: 0px 30px;
+
+    font-weight: bolder;
+    color: #0D0D0D;
+}
+#navlist li:hover {
+    color: #A60E00;
+}
+
+/*conteudo//////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#cont {
+    margin: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.noticia {
+    width: 900px;
+    height: 350px;
+    padding: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.185);
+    border-radius: 10px;
+    margin: 30px;
+
+
+}
+
+#noticia img {
+    width: 200px;
+    height: 175px;
+}
+#propaganda {
+    width: 330px;
+    height: 210px;
+    margin-top: 30px;
+
+    text-align: center;
+
+    background-image: url(../midias/imagem/propaganda.jpg);
+}
+#txtp  {
+    padding: 50px;
+    color: #A60E00;
+
+    font-size: 3em;
+}
+#menu {
+    width: 330px;
+}
