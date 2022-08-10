@@ -9,7 +9,7 @@
 
 body {
     font-family: slab;
-    background-color: #021E73;
+    background-color: white;
 }
 @font-face {
     font-family: slab;
@@ -19,9 +19,9 @@ body {
 :root {
     --cor1: #A60E00;
     --cor2: #B47ED9;
-    --cor3: #033E8C;
-    --cor4: #021E73;
-    --cor5: #0D0D0D;
+    --cor3: #B4BFBF;
+    --cor4: #5F7373;
+    --cor5: #313E40;
 }
 
 /*Navegador/////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -30,23 +30,26 @@ body {
     width: 100vw;
     height: 80px;
     padding: 0px 100px;
-    border-bottom: solid 2px black;
+    border-bottom: solid 2px rgba(0, 0, 0, 0.493);
 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 
-    background-color: darkslategray;
+    background-color: #313e406e;
+    /*
     background-image: url(../midias/imagem/nav\ fundo2.jpg);
     background-size: cover;
     background-position: bottom;
-
+    */
     font-family: slab;
 }
 #logo {
     display: flex;
-    flex-grow: 1;
+    flex-grow: 1; 
+
+    padding-left: 60px;
 }
 #navlist {
     display: flex;
@@ -79,15 +82,17 @@ body {
     border-radius: 10px;
     margin: 30px;
     
-    color: white;
+    color: rgb(100, 100, 100);
 }
-
+.noticia p {
+    margin-bottom: 10px;
+}
 #noticia img {
     width: 200px;
     height: 175px;
 }
 #noticia a {
-    color: white;
+    color: black;
 }
 #propaganda {
     width: 330px;
@@ -120,7 +125,7 @@ body {
     margin: 0.5px;
 }
 #imenu a {
-    color: white;
+    color: black;
 }
 #imenu li:hover {
     font-weight: bolder;
@@ -130,5 +135,7 @@ body {
     width: 100vw;
     height: 50px;
 
-    background-color: #495B73;
+    text-align: center;
+
+    background-color: #313E40;
 }
